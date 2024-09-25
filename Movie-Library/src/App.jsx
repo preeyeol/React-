@@ -18,8 +18,10 @@ const App=()=>{
           title: movie.title,
           plot: movie.plot,
           rating: movie.rating,
+          poster:movie.poster,
           likes: 0
         }));
+        console.log(data)
      
        setMovies(formattedMovies);
 
@@ -38,12 +40,15 @@ const App=()=>{
   }
 
   return(
-<>
-<h1>Movie Lists</h1>
- <button onClick={sorting}>Sort by Rating</button>
+<div className="container">
+  <div >
+<h1 >Movie Lists</h1>
+<div className="movie">
+ <button onClick={sorting}>Sort by Rating</button> <br />
 <MovieCard movies={movies}/>
-
-    </>
+</div>
+</div>
+    </div>
 )
 
 }

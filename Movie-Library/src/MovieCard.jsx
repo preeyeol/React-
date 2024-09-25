@@ -2,9 +2,10 @@ import MovieList from "./MovieList";
 
 const MovieCard=({movies})=>{
  return(
-<div>
+<div className="card">
     {movies.map((movie,index)=>(
         <MovieList key={index}
+        poster={movie.poster}
         title={movie.title}
         plot={movie.plot}
         like={movie.like}

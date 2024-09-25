@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.counter{
+  position: absolute;
+  margin-top: 3rem;
+  box-sizing: border-box;
+  background-color: bisque;
+  height:80vh;
+  width: 40%;
+margin-left: 20rem;
+border: 1px solid black;
+box-shadow: 10px 10px 5px lightblue;
+}
+
+.button{
+height: 20vh;
+position: relative;
+width: 20%;
+display: flex;
+justify-content: space-between;
+  margin-bottom: 4rem;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}

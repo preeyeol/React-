@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+
+}
+
+h1{
+  color: white;
+}
+
+.header{
+  background-color: rgb(179, 228, 167);
+  text-align: center;
+  padding: 0.8rem;
+  box-shadow: 5px 10px #888888;
+}
+
+.student{
+  background-color:  rgb(179, 228, 167);
+width:50%;
+box-sizing: border-box;
+height: 70vh;
+border: 2px solid white;
+box-shadow: 5px 10px #888888;
+text-align: justify;
+
+}
+
+.teacher{ background-color:  rgb(179, 228, 167);
+  box-sizing: border-box;
+  width:50%;
+  height: 70vh;
+  border: 2px solid white;
+  box-shadow: 5px 10px #888888;
+  }
+
+.container{
+
+margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.attendee{
+border: 1px solid white;
+
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color:   rgb(179, 228, 167);
+  color: black;
+  text-align: center;
+}

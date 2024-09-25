@@ -1,0 +1,50 @@
+h2 {
+  color: blueviolet;
+}
+
+p {
+  color: brown;
+}
+
+.all {
+  display: flex;
+  justify-content: space-around;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  border: 2px solid black;
+  text-align: center;
+  width: 40%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  border: 2px solid black;
+  text-align: center;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.profile {
+  margin-left: 30%;
+  border: 2px solid black;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 2rem;
+}
+
+.product {
+  margin-left: 30%;
+  border: 2px solid black;
+  text-align: center;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+h4 {
+  color: purple;
+}
